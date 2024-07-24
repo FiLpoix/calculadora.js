@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    
+    <form name="calculo" class="calculator">
+        <img class="imagem" src="batman-batman-logo-minimalism-portrait-display-wallpaper-preview.jpg" alt="">
+        <input type="text" name="num" id="display" disabled>
+        
+    
+    
+    <div class="divOperacao">
+        <button class="button operation" onclick="addToDisplay('+')">+</button>
+        <button class="button operation" onclick="addToDisplay('-')">-</button>
+        <button class="button operation" onclick="addToDisplay('*')">*</button>
+        <button class="button operation" onclick="addToDisplay('/')">&divide;</button>
+        <button class="button operation" onclick="addStorage()">M+</button>
+        <button class="button operation" onclick="decStorage()">M-</button>
+        <button class="button operation" onclick="exibStorage()">MR</button>
+        <button class="button operation memoryClear" onclick="clearStorage()">MC</button>
+
+
+        
+
+    </div>
+    
+    <div class="numpads">
+        <button class="button" onclick="addToDisplay(7)">7</button>
+        <button class="button" onclick="addToDisplay(8)">8</button>
+        <button class="button" onclick="addToDisplay(9)">9</button>
+        <button class="button" onclick="addToDisplay(4)">4</button>
+        <button class="button" onclick="addToDisplay(5)">5</button>
+        <button class="button" onclick="addToDisplay(6)">6</button>
+        <button class="button" onclick="addToDisplay(1)">1</button>
+        <button class="button" onclick="addToDisplay(2)">2</button>
+        <button class="button" onclick="addToDisplay(3)">3</button>
+        <button class="button" onclick="addToDisplay(0)">0</button>
+        <button class=" button equal" onclick="calculate()">=</button>
+        <input class="button clear" type="reset" value="C">
+    </div>
+    
+    
+    </form>
+
+    <p>
+       | Luiz Filipi |
+        Felipe Ruan |
+        Jhonatas |
+        Yago |
+    </p>
+   <script src="script.js"></script> 
+</body>
+</html> 

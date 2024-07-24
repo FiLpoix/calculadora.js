@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #362f2fb2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    text-align: right;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #777;
+}
+
+.button.equal {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.button.equal:hover {
+    background-color: #27ae60;
+}
+
+.button.clear {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.button.clear:hover {
+    background-color: #c0392b;
+}
+
+.button.operation {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.button.operation:hover {
+    background-color: #2980b9;
+}
+
+p{
+    margin-left: 30px;
+}
+
+.button.memoryClear{
+    background: #e74c3c;
+}
+.button.memoryClear:hover{
+    background-color: #c0392b;
+}
+
+.imagem{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+}
